@@ -9,18 +9,18 @@ date: "18 сентября 2021"
 ## Formatting
 toc: false
 slide_level: 2
-theme: metropolis
 fontsize: 12pt
 mainfont: PT Serif
 romanfont: PT Serif
 sansfont: PT Sans
 monofont: Consolas
+theme: metropolis
 header-includes:
  - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
  - '\makeatletter'
  - '\beamer@ignorenonframefalse'
  - '\makeatother'
-aspectratio: 43
+aspectratio: 169
 section-titles: true
 
 ---
