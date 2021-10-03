@@ -4,7 +4,7 @@ FILES += $(patsubst presentation.md, presentation.pdf, $(wildcard presentation.m
 FILTERS =
 PDF_ENGINE =
 PDF_OPTIONS =
-PDF_FORMAT_OPTIONS = --from markdown --to beamer --template eisvogel.latex --slide-level=2
+PDF_FORMAT_OPTIONS = --from markdown --to beamer --slide-level=2
 
 # FILTERS += -F pandoc-citeproc
 FILTERS += -F pandoc-crossref
